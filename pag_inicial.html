@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font Import - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/output.css" />
+    
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Cabeçalho do separador  -->
+    <link rel="shortcut icon" href="hamburguer.ico" type="image/x-icon">
+    <title>Hamburgueria</title>
+</head>
+<body>
+    <!--Início HEADER-->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col items-center justify-center"> 
+            <img 
+                src="./assets/hamburguer.png"
+                alt="Logo hamburgueria" 
+                class="w-32 h-32 shadow-lg rounded-full hover:scale-110 duration-200"
+            />
+            <h1 class="text-3xl mt-4 mb-2 font-bold text-white">
+                Hamburgueria
+            </h1>
+
+            <span class="flex text-white font-medium items-center gap-2" style="padding: 0 2.5em;">
+                <div class="items-center">
+                    <a href="#" target="_new" style="font-size: 0.85em;">
+                        Av. das Palmeiras, 1234 - Bairro Exemplar, Cidade Fictícia
+                    </a>
+                </div>
+                <div><a href="#" target="_new"><i class='bx bx-chevron-right text-3xl cursor-pointer'></i></a></div>
+            </span>
+
+            <div class="bg-green-600 px-3 py-1 mt-4 rounded-lg" id="date-span">
+                <span class="text-white font-medium items-center">
+                    <i class='bx bx-time-five icone'></i>
+                    Segunda á Domingo - 19:00 ás 23:59
+                </span>
+            </div>
+
+        </div>
+    </header>
+    <!--Fim HEADER-->
+
+    <div class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        Conheça nosso cardápio
+    </div>
+
+    <!--Início MENU-->
+    <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-12 mx-auto max-w-7xl px-2 mb-12">
+            <!--1Produto Item-->
+            <div class="flex gap-2">
+                <img 
+                    src="./assets/hamb-1.png" 
+                    alt=""
+                    class="w-28 h-28 rounded-3xl hover:scale-105 hover:-rotate-1 duration-150"
+                />
+                
+                <div>
+                    <p class="font-bold text-gray-700">Chesse Burguer</p>
+                    <p class="text-sm text-gray-700">Pão brioche macio, 1 hambúrguer 150g, Queijo Cheddar e molho especial da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold">R$15.00</p>
+                        <button 
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            data-name="Chesse Burguer"
+                            data-price="15.00"
+                        >
+                            <i class='bx bx-cart-add text-lg text-white block'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--Fim 1Produto Item-->
+
+            <!--2Produto Item-->
+            <div class="flex gap-2">
+                <img 
+                    src="./assets/hamb-2.png" 
+                    alt=""
+                    class="w-28 h-28 rounded-3xl hover:scale-105 hover:-rotate-1 duration-150"
+                />
+                
+                <div>
+                    <p class="font-bold text-gray-700">Burguer</p>
+                    <p class="text-sm text-gray-700">Pão brioche macio, 1 hambúrguer 150g, Queijo Cheddar e molho especial da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold">R$30.00</p>
+                        <button 
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            data-name="Burguer"
+                            data-price="15.00"
+                        >
+                            <i class='bx bx-cart-add text-lg text-white block'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--Fim 2Produto Item-->
+
+            <!--3Produto Item-->
+            <div class="flex gap-3">
+                <img 
+                    src="./assets/hamb-3.png" 
+                    alt=""
+                    class="w-28 h-28 rounded-3xl hover:scale-105 hover:-rotate-1 duration-150"
+                />
+                
+                <div>
+                    <p class="font-bold text-gray-700">Burguer</p>
+                    <p class="text-sm text-gray-700">Pão brioche macio, 1 hambúrguer 150g, Queijo Cheddar e molho especial da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold">R$20.00</p>
+                        <button 
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            data-name="Burguer"
+                            data-price="15.00"
+                        >
+                            <i class='bx bx-cart-add text-lg text-white block'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--Fim 3Produto Item-->
+
+            <!--4Produto Item-->
+            <div class="flex gap-3">
+                <img 
+                    src="./assets/hamb-4.png" 
+                    alt=""
+                    class="w-28 h-28 rounded-3xl hover:scale-105 hover:-rotate-1 duration-150"
+                />
+                
+                <div>
+                    <p class="font-bold text-gray-700">Burgue</p>
+                    <p class="text-sm text-gray-700">Pão brioche macio, 1 hambúrguer 150g, Queijo Cheddar e molho especial da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold">R$25.00</p>
+                        <button 
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            data-name="Burguer"
+                            data-price="15.00"
+                        >
+                            <i class='bx bx-cart-add text-lg text-white block'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--Fim 4Produto Item-->
+
+        </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">Bebidas</h2>
+
+            <!--GRID BEBIDAS-->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-12 mx-auto max-w-7xl px-2 mb-12" id="menu">
+                <!--BEBIDA Item-->
+                <div class="flex gap-2 w-full">
+                    <img 
+                        src="./assets/bebidas/coca_lata.webp" 
+                        alt="Coca lata"
+                        class="w-28 h-28 rounded-3xl hover:scale-105 hover:-rotate-1 duration-150"
+                    />
+                    
+                    <div class="w-full">
+                        <p class="font-bold text-gray-700">Coca lata</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold">R$7.00</p>
+                            <button 
+                                class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                                data-name="Coca lata"
+                                data-price="7.00"
+                            >
+                                <i class='bx bx-cart-add text-lg text-white block'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim BEBIDA Item-->
+
+                <!--BEBIDA Item-->
+                <div class="flex gap-2 w-full">
+                    <img 
+                        src="./assets/bebidas/guara.png" 
+                        alt="Guaraná lata"
+                        class="w-28 h-28 rounded-3xl hover:scale-105 hover:-rotate-1 duration-150"
+                    />
+                    
+                    <div class="w-full">
+                        <p class="font-bold text-gray-700">Guaraná lata</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold">R$5.00</p>
+                            <button 
+                                class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                                data-name="Guarana lata"
+                                data-price="5.00"
+                            >
+                                <i class='bx bx-cart-add text-lg text-white block'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim BEBIDA Item-->
+            </div>
+            <!--Fim GRID BEBIDAS-->
+        </div>
+    </div>
+    <!--Fim MENU-->
+
+    <!--MODAL-->
+    <div class="hidden bg-modal w-full h-full fixed top-0 left-0 z-50 items-center justify-center" id="modal">
+        
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <i class='bx bx-x float-right cursor-pointer text-2xl' id="close-modal"></i>
+            <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+           
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+            <p class="font-bold">Total: R$ <span>0.00</span></p>
+            <p class="font-bold mt-2">Endereço de entrega: </p>
+            <input 
+                type="text"
+                placeholder="Digite seu endereço completo..."
+                id="adress"
+                class="w-full border-2 p-1 rounded my-1"
+            />
+            <p class="text-red-500 hidden" id="adress-warn">Digite seu enderço completo</p>
+
+            <div>
+                <button class="bg-green-600 text-white px-3 py-1 rounded-md float-right" id="finish">Finalizar pedido</button>
+            </div>
+        </div>
+    </div>
+    <!--Fim MODAL-->
+
+    <!--BUTTON CART FOOTER-->
+    <footer class="w-full py-2 bg-red-600 fixed bottom-0 z-40 flex items-center justify-center">
+        <button class="flex items-center text-white text-xl rounded-lg py-3 px-6" id="open-modal">
+            (<span id="cart-count">0</span>)
+            Ver carrinho
+            <i class='bx bx-cart text-xl text-white ml-2'></i>
+        </button>
+    </footer>
+    <!--Fim BUTTON CART FOOTER-->
+
+</body>
+
+<script>
+    const body = document.querySelector('body');
+    let modal = document.getElementById('modal'),
+        openModal = document.getElementById('open-modal'),
+        closeModal = document.getElementById('close-modal');
+    
+    openModal.onclick = function(){
+        modal.style.display = 'flex';
+        body.style.overflow = 'hidden';
+    };
+
+    closeModal.onclick = function(){
+        modal.style.display = 'none';
+        body.style.overflow = 'auto';
+    }
+</script>
+</html>
