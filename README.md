@@ -1,4 +1,4 @@
-# Hamburgueria - Frontend
+https://github.com/seu-usuario/secure-payments-simulator.git# Hamburgueria - Frontend
 
 ## Descrição
 Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, contendo:
@@ -33,4 +33,6 @@ Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, con
 ## Como executar
 1. Clone o repositório:
 ```bash
-git clone [url-do-repositório]
+git clone https://github.com/seu-usuario/burguer-menu.git
+cd burguer-menu
+```
