@@ -1,4 +1,4 @@
-# Sistema de cardápio
+# Sistema de cardápio web
 
 ## Descrição
 Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, contendo:
