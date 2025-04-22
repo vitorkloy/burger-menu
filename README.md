@@ -12,8 +12,8 @@ Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, con
   - Logo e nome da hamburgueria
   - Endereço e horário de funcionamento
 - **Cardápio** dividido em:
-  - Hamburguers (4 itens)
-  - Bebidas (2 itens)
+  - Hamburguers 
+  - Bebidas 
 - **Carrinho** com:
   - Adição/remoção de itens
   - Cálculo do total
@@ -22,6 +22,9 @@ Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, con
 ## Tecnologias
 - **HTML5** - Estrutura da página
 - **Tailwind CSS** - Estilização responsiva
+
+## Pré-requisitos 
+- **Node.js**
 
 ## Como executar
 1. Clone o repositório:
