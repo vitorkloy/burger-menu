@@ -22,8 +22,6 @@ Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, con
 ## Tecnologias
 - **HTML5** - Estrutura da página
 - **Tailwind CSS** - Estilização responsiva
-- **Boxicons** - Ícones
-- **Google Fonts (Poppins)** - Tipografia
 
 ## Como executar
 1. Clone o repositório:
