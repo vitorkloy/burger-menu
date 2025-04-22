@@ -19,9 +19,13 @@ Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, con
   - Cálculo do total
   - Campo para endereço de entrega
 
-## Tecnologias
-- **HTML5** - Estrutura da página
-- **Tailwind CSS** - Estilização responsiva
+## Tecnologias Utilizadas
+
+| Tecnologia | Finalidade |
+|------------|------------|
+| Javascript | Linguagem principal |
+| Tailwind CSS | Estilização responsiva |
+| HTML | Interface web |
 
 ## Pré-requisitos 
 - **Node.js**
