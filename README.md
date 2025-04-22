@@ -34,7 +34,7 @@ Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, con
 git clone https://github.com/seu-usuario/burguer-menu.git
 cd burguer-menu
 ```
-2. Instalar dependências:
+2. Instale as dependências:
 ```bash
 npm install -r requirements.txt
 ```
