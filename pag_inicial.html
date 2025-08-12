@@ -227,15 +227,15 @@
     <!--Fim MENU-->
 
     <!--MODAL-->
-    <div class="hidden bg-modal w-full h-full fixed top-0 left-0 z-50 items-center justify-center" id="modal">
+    <div class="hidden bg-modal w-full h-full fixed top-0 left-0 z-50 items-center justify-center" id="cart-modal">
         
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
-            <i class='bx bx-x float-right cursor-pointer text-2xl' id="close-modal"></i>
+            <i class='bx bx-x float-right cursor-pointer text-2xl' id="close-cart-modal"></i>
             <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
            
             <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
 
-            <p class="font-bold">Total: R$ <span>0.00</span></p>
+            <p class="font-bold">Total: R$ <span id="cart-total">0.00</span></p>
             <p class="font-bold mt-2">Endereço de entrega: </p>
             <input 
                 type="text"
@@ -246,15 +246,15 @@
             <p class="text-red-500 hidden" id="adress-warn">Digite seu enderço completo</p>
 
             <div>
-                <button class="bg-green-600 text-white px-3 py-1 rounded-md float-right" id="finish">Finalizar pedido</button>
+                <button class="bg-green-600 text-white px-3 py-1 rounded-md float-right" id="checkout-btn">Finalizar pedido</button>
             </div>
         </div>
     </div>
     <!--Fim MODAL-->
 
     <!--BUTTON CART FOOTER-->
-    <footer class="w-full py-2 bg-red-600 fixed bottom-0 z-40 flex items-center justify-center">
-        <button class="flex items-center text-white text-xl rounded-lg py-3 px-6" id="open-modal">
+    <footer class="w-full bg-red-600 fixed bottom-0 z-40 flex items-center justify-center">
+        <button class="flex items-center text-white text-xl rounded-lg py-2 px-6" id="open-cart-modal">
             (<span id="cart-count">0</span>)
             Ver carrinho
             <i class='bx bx-cart text-xl text-white ml-2'></i>
@@ -263,21 +263,5 @@
     <!--Fim BUTTON CART FOOTER-->
 
 </body>
-
-<script>
-    const body = document.querySelector('body');
-    let modal = document.getElementById('modal'),
-        openModal = document.getElementById('open-modal'),
-        closeModal = document.getElementById('close-modal');
-    
-    openModal.onclick = function(){
-        modal.style.display = 'flex';
-        body.style.overflow = 'hidden';
-    };
-
-    closeModal.onclick = function(){
-        modal.style.display = 'none';
-        body.style.overflow = 'auto';
-    }
-</script>
+<script src="script.js"></script>
 </html>
