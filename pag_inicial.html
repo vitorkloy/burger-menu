@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <!-- Google Font Import - Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,7 +46,7 @@
             <div class="bg-green-600 px-3 py-1 mt-4 rounded-lg" id="date-span">
                 <span class="text-white font-medium items-center">
                     <i class='bx bx-time-five icone'></i>
-                    Segunda á Domingo - 19:00 ás 23:59
+                    Segunda á Domingo - 18:00 ás 23:59
                 </span>
             </div>
 
@@ -75,7 +77,7 @@
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold">R$15.00</p>
                         <button 
-                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105 add-to-cart-btn"
                             data-name="Chesse Burguer"
                             data-price="15.00"
                         >
@@ -101,7 +103,7 @@
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold">R$30.00</p>
                         <button 
-                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105 add-to-cart-btn"
                             data-name="Burguer"
                             data-price="15.00"
                         >
@@ -127,7 +129,7 @@
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold">R$20.00</p>
                         <button 
-                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105 add-to-cart-btn"
                             data-name="Burguer"
                             data-price="15.00"
                         >
@@ -153,7 +155,7 @@
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold">R$25.00</p>
                         <button 
-                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                            class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105 add-to-cart-btn"
                             data-name="Burguer"
                             data-price="15.00"
                         >
@@ -185,7 +187,7 @@
                         <div class="flex items-center gap-2 justify-between mt-3">
                             <p class="font-bold">R$7.00</p>
                             <button 
-                                class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                                class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105 add-to-cart-btn"
                                 data-name="Coca lata"
                                 data-price="7.00"
                             >
@@ -210,7 +212,7 @@
                         <div class="flex items-center gap-2 justify-between mt-3">
                             <p class="font-bold">R$5.00</p>
                             <button 
-                                class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105"
+                                class="bg-gray-900 p-1 rounded-sm px-25 btn-add-cart hover:scale-105 add-to-cart-btn"
                                 data-name="Guarana lata"
                                 data-price="5.00"
                             >
@@ -240,10 +242,10 @@
             <input 
                 type="text"
                 placeholder="Digite seu endereço completo..."
-                id="adress"
+                id="address"
                 class="w-full border-2 p-1 rounded my-1"
             />
-            <p class="text-red-500 hidden" id="adress-warn">Digite seu enderço completo</p>
+            <p class="text-red-500 hidden" id="address-warn">Digite seu enderço completo</p>
 
             <div>
                 <button class="bg-green-600 text-white px-3 py-1 rounded-md float-right" id="checkout-btn">Finalizar pedido</button>
@@ -262,6 +264,7 @@
     </footer>
     <!--Fim BUTTON CART FOOTER-->
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

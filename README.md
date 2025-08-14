@@ -38,5 +38,5 @@ cd burguer-menu
 ```
 2. Instale as dependências:
 ```bash
-npm install -r requirements.txt
+npm install
 ```
