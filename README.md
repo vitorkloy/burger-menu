@@ -33,7 +33,7 @@ Frontend de uma hamburgueria fictícia desenvolvido com HTML e Tailwind CSS, con
 ## Como executar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/burguer-menu.git
+git clone https://github.com/vitorkloy/burger-menu.git
 cd burguer-menu
 ```
 2. Instale as dependências:
